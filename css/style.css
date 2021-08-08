@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* gloabal css */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+:root{
+/* font-family; */
+    --primary_font:'Poppins',sans sarif;
+    --secondary_font:;
+    --primary_color:#2D25A0;
+    --secondary_color:#fff;
+    --accent-color:#E02C6D;
+}
+.container{
+    width:1160px;
+    margin: 0 auto;
+    
+}
+.body{
+    font-family:"Poppins",sans-serif;
+}
+/* banner_area */
+#banner_area{
+    background-color: var(--primary_color);
+    padding:72px 0;
+}
+.banner_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner_left h2{
+    font-size: 64px;
+    color:#fff;
+    line-height:80px;
+    font-weight: 700;
+}
+.banner_right img {
+    width: 556px;
+}
+a.btn_custom {
+    background: var(--accent-color);
+    padding: 10px 24px;
+    color: #fff;
+    margin: 26px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+/* player_section */
+
+.allplayer_list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding: 80px;
+}
+.player_inner{
+    padding:15px;
+    box-shadow:0px 0px 40px 0px #00000026;
+}
+.player_inner img {
+    width: 300px;
+}
+.player_inner h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    padding:10px 0;
+}
+.player_inner p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+/* heighlight_section */
+
+
+.heighlight_inner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 21px;
+    grid-row-gap: 66px;
+    padding: 0 71px;
+    align-items: center;
+    margin-top: 77px;
+}
+.heighlight_left h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    padding: 9px 0px;
+}
+.heighlight_left p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.heighlight_right img {
+    width: 513px;
+    height: 415px;
+}
+/* icon-section */
+
+
+.footbal_icon img {
+    width: 483px;
+    height: 110px;
+}
+.content_inner {
+    text-align: center;
+    margin: 0px 338px;
+    padding-top: 158px;
+}
+.social_icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.socialli_icon {
+    padding: 10px;
+}
+.footbal_icon p {
+    font-size: 18px;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.fab, .far {
+    font-weight: 400;
+    width: 21px;
+}
