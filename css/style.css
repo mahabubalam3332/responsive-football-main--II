@@ -8,8 +8,8 @@
 }
 :root{
 /* font-family; */
-    --primary_font:'Poppins',sans sarif;
-    --secondary_font:;
+    --primary_font:"Poppins",sans-serif;
+    --secondary_font:sans-serif;
     --primary_color:#2D25A0;
     --secondary_color:#fff;
     --accent-color:#E02C6D;
@@ -34,6 +34,7 @@
     flex-wrap: wrap;
 }
 .banner_left h2{
+    font-family: var(--primary_font);
     font-size: 64px;
     color:#fff;
     line-height:80px;
@@ -49,6 +50,7 @@ a.btn_custom {
     margin: 26px 0;
     display: inline-block;
     text-decoration: none;
+    font-family: var(--primary_font);
 }
 /* player_section */
 
@@ -71,8 +73,10 @@ a.btn_custom {
     line-height: 40px;
     font-weight: 700;
     padding:10px 0;
+    font-family: var(--primary_font);
 }
 .player_inner p {
+    font-family: var(--primary_font);
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -90,12 +94,14 @@ a.btn_custom {
     margin-top: 77px;
 }
 .heighlight_left h2 {
+    font-family: var(--primary_font);
     font-size: 48px;
     line-height: 60px;
     font-weight: 700;
     padding: 9px 0px;
 }
 .heighlight_left p {
+    font-family: var(--primary_font);
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -127,12 +133,12 @@ a.btn_custom {
     padding: 10px;
 }
 .footbal_icon p {
+    font-family: var(--primary_font);
     font-size: 18px;
     padding: 10px;
     font-family: poppins;
     font-weight: 400;
 }
-
 .fab, .far {
     font-weight: 400;
     width: 21px;
