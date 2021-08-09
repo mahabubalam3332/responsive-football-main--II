@@ -1,0 +1,28 @@
+@media only screen and (max-width:400px){
+    .banner_left h2 {
+        font-size: 44px;
+        padding: 22px;
+    }
+    .player_inner h2 {
+        color: red;
+    }
+    .allplayer_list {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .allplayer_list {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner_inner {
+        flex-direction: column;
+         align-items: start;
+    }
+    .heighlight_inner {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:792px) and (max-width:992px){
+    .allplayer_list {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
