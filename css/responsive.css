@@ -3,14 +3,19 @@
         font-size: 44px;
         padding: 22px;
     }
+    .heighlight_left h2 {
+        font-size: 32px;
+    }
+    .banner_right img {
+        width: 390px;
+    }
     .player_inner h2 {
         color: red;
     }
     .allplayer_list {
         grid-template-columns: repeat(1,1fr);
-    }
-    .allplayer_list {
-        grid-template-columns: repeat(1,1fr);
+        padding: 40px;
+    
     }
     .banner_inner {
         flex-direction: column;
@@ -19,10 +24,56 @@
     .heighlight_inner {
         grid-template-columns: repeat(1,1fr);
     }
+    .heighlight_inner {
+        padding: 0px 35px;
+    }
+    .heighlight_right img {
+        width: 330px;
+       
+    }
+    .content_inner {
+        padding-top: 47px;
+        text-align: left;
+        margin:0px;
+    }
+    .footbal_icon img {
+        width: 350px;
+        padding: 5px;
+    }
+    .footbal_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .social_all {
+        align-items: start;
+        margin-left:100px;
+    }
+    .socialli_icon {
+        padding: 10px 79px;
+    }
 }
 @media only screen and (min-width:792px) and (max-width:992px){
+    .banner_inner {
+        justify-content: start;
+        align-items: center;
+    }
+    .banner_left h2 {
+        font-size: 40px;
+        line-height: 65px;
+        font-weight: 700;
+    }
+    .banner_right img {
+        width: 482px;
+    }
     .allplayer_list {
         grid-template-columns: repeat(2,1fr);
     }
+    .heighlight_inner {
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 30px;
+        align-items: center;
+    }
+
 
 }
